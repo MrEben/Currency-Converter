@@ -1,0 +1,7 @@
+footer {
+  background: var(--clr-grey-3);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  display: grid;
+  height: fit-content;
+}

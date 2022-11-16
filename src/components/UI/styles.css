@@ -1,0 +1,67 @@
+.card {
+    background: var(--clr-grey-2);
+    border: 2px solid transparent;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 0 3rem;
+    transition: var(--transition);
+  }
+  .card:hover {
+    background: transparent;
+    border-color: var(--clr-grey-1);
+    cursor: default;
+  }
+  .card span {
+    width: 3rem;
+    height: 3rem;
+    background: var(--clr-primary-9);
+    color: var(--clr-primary-1);
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+    border-radius: var(--radius);
+    transition: var(--transition);
+  }
+  
+  .card:hover span {
+    background: var(--dark-shadow);
+    color: gold;
+    border-color: var(--clr-black);
+  }
+  .card small {
+    margin-top: 1rem;
+    display: block;
+    font-weight: 300;
+  }
+  
+  .flip {
+    background: var(--clr-grey-2);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  .flip div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flip-icon {
+    background-color: transparent;
+    color: var(--clr-primary-3);
+    font-size: 1.5rem;
+    border: transparent;
+  }
+  .flip p {
+    border-top: 1px solid var(--clr-white);
+    margin-top: 1.5rem;
+  }
+  
+.members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
