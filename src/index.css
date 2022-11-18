@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap");
 :root {
-  --clr-primary-1: #161816;
+  --clr-primary-1: #293d4b;
   --clr-primary-2: #ebf3eb;
   --clr-primary-3: #8e9a92;
   --clr-primary-4: #836853;
@@ -77,23 +77,6 @@ section {
   height: 100vh;
 }
 
-section > h2,
-section > h5 {
-  text-align: center;
-  color: var(--clr-grey-1);
-}
-section > h2 {
-  color: var(--clr-primary-6);
-  margin-bottom: 3rem;
-}
-
-a {
-  color: var(--clr-primary-6);
-  transition: var(--transition);
-}
-a:hover {
-  color: var(--clr-white);
-}
 .btn {
   width: max-content;
   display: inline-block;
@@ -137,10 +120,6 @@ img {
   .container {
     width: var(--container-width-md);
   }
-  .members {
-    gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
 
   section {
     margin-top: 1rem;
@@ -155,16 +134,8 @@ img {
 /* =====MEDIA QUERRIES(SMALL)====== */
 
 @media screen and (max-width: 600px) {
-  
   h1 {
     font-size: 2.2rem;
     line-height: 1.1rem;
-  }
-  .members {
-    gap: 0.8rem;
-    grid-template-columns: 1fr;
-  }
-  .flip {
-    padding: 0.2rem;
   }
 }

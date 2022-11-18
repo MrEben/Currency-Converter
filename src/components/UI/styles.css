@@ -65,3 +65,26 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
   }
+  
+/* =====MEDIA QUERRIES(MEDIUM)====== */
+
+@media screen and (max-width: 1024px) {
+ 
+  .members {
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+/* =====MEDIA QUERRIES(SMALL)====== */
+
+@media screen and (max-width: 600px) {
+ 
+  .members {
+    gap: 0.8rem;
+    grid-template-columns: 1fr;
+  }
+  .flip {
+    padding: 0.2rem;
+  }
+}
