@@ -1,0 +1,36 @@
+/* CSS HEX */
+--white-ice: #dbfae4;
+--blue-chill: #11a082;
+--jacarta: #34276d;
+--breaker-bay: #69a4a0;
+--pastel-green: #62de93;
+--bermuda: #7adac9;
+--hippie-pink: #b3475c;
+--casal: #2f5c70;
+--sushi: #74a43c;
+
+
+/* SCSS HEX */
+$white-ice: #dbfae4;
+$blue-chill: #11a082;
+$jacarta: #34276d;
+$breaker-bay: #69a4a0;
+$pastel-green: #62de93;
+$bermuda: #7adac9;
+$hippie-pink: #b3475c;
+$casal: #2f5c70;
+$sushi: #74a43c;
+
+
+/* SCSS RGB */
+--white-ice: rgba(219,250,228,1);
+--blue-chill: rgba(17,160,130,1);
+--jacarta: rgba(52,39,109,1);
+--breaker-bay: rgba(105,164,160,1);
+--pastel-green: rgba(98,222,147,1);
+--bermuda: rgba(122,218,201,1);
+--hippie-pink: rgba(179,71,92,1);
+--casal: rgba(47,92,112,1);
+--sushi: rgba(116,164,60,1);
+
+
